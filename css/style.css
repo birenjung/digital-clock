@@ -25,10 +25,10 @@ h2{
 
 .clock div {
     margin: 5px;
-    position: relative;
+    position: relative;        
 }
 
-.clock span{
+.clock span{    
     width: 100px;
     height: 80px;
     background-color: slateblue;
@@ -61,3 +61,15 @@ h2{
 /* justify-content center -  horizontolly
     align-items - vertically center
 */
+
+@media only screen and (max-width: 600px) {
+    
+    .clock span{
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+    .clock #ampm{
+        width: 40px;
+    }
+}
